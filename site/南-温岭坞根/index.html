@@ -1,0 +1,601 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="TZJX2020">
+      
+      
+      
+        <meta name="author" content="TZJX2020 Team">
+      
+      
+        <link rel="canonical" href="https://ctf-wiki.org/en/%E5%8D%97-%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.7">
+    
+    
+      
+        <title>南 温岭坞根 - TZJX2020</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>:root{--md-text-font-family:"Noto Sans";--md-code-font-family:"Source Code Pro"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="white" data-md-color-accent="red">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="TZJX2020" class="md-header__button md-logo" aria-label="TZJX2020" data-md-component="logo">
+      
+  <img src="https://tvax1.sinaimg.cn/crop.103.49.982.982.180/6b841424ly8gdi44jokpkj20vi0tjdt1.jpg?KID=imgbed,tva&Expires=1623002005&ssig=VmedXegOCi" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TZJX2020
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              南 温岭坞根
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      台州警校2021百年建党活动
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../%E4%B8%80%E6%B1%9F%E5%B1%B1%E5%B2%9B/" class="md-tabs__link">
+      一江山岛
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../%E4%B8%9C-%E5%A4%A7%E9%99%88%E5%B2%9B/" class="md-tabs__link">
+      东 大陈岛
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../%E5%8C%97-%E4%B8%89%E9%97%A8%E4%BA%AD%E6%97%81/" class="md-tabs__link">
+      北 三门亭旁
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      南 温岭坞根
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../%E8%A5%BF-%E9%BB%84%E5%B2%A9%E6%A1%90%E6%A0%91%E5%9D%91/" class="md-tabs__link">
+      西 黄岩桐树坑
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="TZJX2020" class="md-nav__button md-logo" aria-label="TZJX2020" data-md-component="logo">
+      
+  <img src="https://tvax1.sinaimg.cn/crop.103.49.982.982.180/6b841424ly8gdi44jokpkj20vi0tjdt1.jpg?KID=imgbed,tva&Expires=1623002005&ssig=VmedXegOCi" alt="logo">
+
+    </a>
+    TZJX2020
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        台州警校2021百年建党活动
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%B8%80%E6%B1%9F%E5%B1%B1%E5%B2%9B/" class="md-nav__link">
+        一江山岛
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%B8%9C-%E5%A4%A7%E9%99%88%E5%B2%9B/" class="md-nav__link">
+        东 大陈岛
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%8C%97-%E4%B8%89%E9%97%A8%E4%BA%AD%E6%97%81/" class="md-nav__link">
+        北 三门亭旁
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          南 温岭坞根
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        南 温岭坞根
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    百名青警唱响红歌，追寻坞根红色足迹
+  </a>
+  
+    <nav class="md-nav" aria-label="百名青警唱响红歌，追寻坞根红色足迹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    聆听先烈事迹
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    追寻红色足迹
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    䟡砺前行 永葆初心
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%A5%BF-%E9%BB%84%E5%B2%A9%E6%A1%90%E6%A0%91%E5%9D%91/" class="md-nav__link">
+        西 黄岩桐树坑
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    百名青警唱响红歌，追寻坞根红色足迹
+  </a>
+  
+    <nav class="md-nav" aria-label="百名青警唱响红歌，追寻坞根红色足迹">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    聆听先烈事迹
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    追寻红色足迹
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    䟡砺前行 永葆初心
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>南 温岭坞根</h1>
+                
+                <h2 id="_1">百名青警唱响红歌，追寻坞根红色足迹</h2>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/6.gif" /></p>
+<hr />
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/8.png" /></p>
+<p>“我宣誓，我宣誓……”一句句誓言铿锵响起，3月25日，台州市人民警察培训学校带领40余名新警学员与温岭市公安局50余名青警在温岭坞根会师，联合开展以“建党百年 百年树人”为主题的党史学习教育。百名青年民警在党旗下重温入党誓词，传承红色基因，汲取红色力量。</p>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/10.png" /></p>
+<h4 id="_2"><strong>聆听先烈事迹</strong></h4>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/1.png" /></p>
+<p>在烈士纪念碑前，青年民警们默哀三分钟，沉痛悼念先烈，表达对先烈的无限缅怀之情。在红十三军纪念馆，他们认真参观学习历史资料和图片，详细了解坞根革命根据地红军先烈的英雄事迹，重温革命斗争历史。</p>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/2.png" /></p>
+<p>据了解，温岭市坞根镇是中国工农红军第十三军二师的诞生地，也是第二次国内革命战争时期有代表性的革命老区，被誉为“东部的延安”。1930年初，坞根党组织成立游击大队，同年扩编为红军第十三军二师，在温岭、玉环、乐清三地交界地区，点燃了开展武装斗争的革命圣火。十年时间里，红二师经历了50多次战斗，其中规模较大的反“围剿”战斗就有5次，牺牲150多人，声势威震浙南，为后来的台州、温州两地的抗日战争、解放战争播下了革命火种。</p>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/3.png" /></p>
+<p>通过参观学习</p>
+<p>青年民警都被老一辈无产阶级的</p>
+<p>爱国情怀与艰苦奋斗的精神所感动</p>
+<p>纷纷表示</p>
+<p>要像先烈学习，传承革命精神</p>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/10.png" /></p>
+<h4 id="_3"><strong>追寻红色足迹</strong></h4>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/4.png" /></p>
+<p>随后，青年民警高举旗帜，昂首挺胸，沿着烈士陵园后山的小路开始了红色之旅。这条长达7公里的“长征路”，是蜿蜒崎岖的山路，路窄的时候只能通过一人，但是青警们没有退缩，一路高歌勇进：“日落西山红霞飞，战士打靶把营归……”“没有共产党就没有新中国……”，他们用一首首红歌缅怀历史，唱响青春。</p>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/5.png" /></p>
+<p>中午时分</p>
+<p>野炊活动拉开序幕</p>
+<p>民警们体验了当年红军行军时</p>
+<p>生火做饭,吃大锅灶的艰辛</p>
+<p>↓↓↓</p>
+<p><img alt="图片" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/12.png" /></p>
+<p><img alt="图片" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/13.png" /></p>
+<p>追寻着先辈的足迹</p>
+<p>青年民警切身体会到了</p>
+<p>革命道路的坎坷与不易</p>
+<p><img alt="" src="../IMG/img/%E6%B8%A9%E5%B2%AD%E5%9D%9E%E6%A0%B9/10.png" /></p>
+<h4 id="_4"><strong>䟡砺前行 永葆初心</strong></h4>
+<p>砺初心传承红色精神，激发工作斗志。台州新警和青警踏寻本地四个红色教育基地，累计徒步30公里，了解到台州不同时期的红色历史。“建党百年·百年树人”党史学习教育如同绵绵春雨，浸润着青年民警的心田，坚定了理想信念，铸牢忠诚警魂。</p>
+<p><img src="IMG\img\温岭坞根\11.gif" style="zoom:10%;" /></p>
+<p>“通过这次红色之旅，我内心澎湃，热血沸腾，脑子浮现出的是历史长河中的峥嵘岁月，先辈们是那么地艰苦、困难。”一位青年民警代表说，“正如习总书记所说，雄关漫道真如铁，我们应该铭记历史，不忘来时的路；人间正道是沧桑，我们要珍惜当下，把红二军的革命精神带到工作中，争做一名为民服务的好警察；长风破浪会有时，相信我们的明天会更好。”</p>
+<p><a href="http://go.plvideo.cn/front/video/view?vid=f3d6a4d47fae620dc3e42dee24e77d57_f">点击观看视频</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../%E5%8C%97-%E4%B8%89%E9%97%A8%E4%BA%AD%E6%97%81/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 北 三门亭旁" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              北 三门亭旁
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../%E8%A5%BF-%E9%BB%84%E5%B2%A9%E6%A1%90%E6%A0%91%E5%9D%91/" class="md-footer__link md-footer__link--next" aria-label="Next: 西 黄岩桐树坑" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              西 黄岩桐树坑
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 TZJX2020 Team
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.76f349be.min.js"></script>
+      
+    
+  </body>
+</html>
